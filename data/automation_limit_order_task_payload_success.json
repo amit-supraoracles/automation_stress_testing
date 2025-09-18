@@ -1,0 +1,58 @@
+{
+    "function_id": "0x0ba9146e33248baea639e9f288242b220d9092cf87a5b6bda36e755cf5bd198a::target_order::auto_limit_order",
+    "type_args": [
+        "0x1::supra_coin::SupraCoin",
+        "0x1::supra_coin::SupraCoin",
+        "0x1::supra_coin::SupraCoin"
+    ],
+    "args": [
+        {
+            "type": "u32",
+            "value": [0, 1, 10, 5]
+        },
+        {
+            "type": "u128",
+            "value": [80000000000000000000000, 10000000000000000000000, 100000000000000000000, 20000000000000000000000]
+        },
+        {
+            "type": "u8",
+            "value": [1,1,1,1]
+        },
+        {
+            "type": "u64",
+            "value": [[0,1], [2,3]]
+        },
+        {
+            "type": "u64",
+            "value": "100"
+        },
+        {
+            "type": "u8",
+            "value": "0"
+        },
+        {
+            "type": "u32",
+            "value": "1"
+        },
+        {
+            "type": "u128",
+            "value": "5000"
+        },
+        {
+            "type": "u64",
+            "value": "0"
+        },
+        {
+            "type": "u64",
+            "value": "0"
+        },
+        {
+            "type": "u64",
+            "value": "0"
+        },
+        {
+            "type": "u64",
+            "value": "1"
+        }
+    ]
+}

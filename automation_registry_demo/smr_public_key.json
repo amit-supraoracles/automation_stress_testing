@@ -1,0 +1,46 @@
+{
+  "active": "foundation_1",
+  "list": {
+    "foundation_4": {
+      "ed25519_public_key": "c8aadb947064a3294305f657d06f001d4df3b9caa32e404ef77aa2cacf5387ba",
+      "account_address": "78618ea56e468ce7d92009f7719279201469388e9efb68ba62c2d42a357e9c6b",
+      "chain_id": 255,
+      "network": "Localnet",
+      "rpc_url": "http://localhost:27000/",
+      "faucet_url": "http://localhost:27001/"
+    },
+    "foundation_3": {
+      "ed25519_public_key": "b910d1463b33862fddc846d29b4f35a6800bf08fb48ff160d301249a1d190ac1",
+      "account_address": "4f4ca126a731ab33724e1d469a8f532994237b8a1778a186130c42cdcdebb13c",
+      "chain_id": 255,
+      "network": "Localnet",
+      "rpc_url": "http://localhost:27000/",
+      "faucet_url": "http://localhost:27001/"
+    },
+    "foundation_1": {
+      "ed25519_public_key": "f2687f3987c991c3ff613293c44a096700e8cf017cbea9852241e9e7370b71e9",
+      "account_address": "1b246e83ca8f538f59eb32c5db273cae5b79e21e2fd22faa6fe95ee1039f1342",
+      "chain_id": 255,
+      "network": "Localnet",
+      "rpc_url": "http://localhost:27000/",
+      "faucet_url": "http://localhost:27001/"
+    },
+    "foundation_2": {
+      "ed25519_public_key": "d35c9617363237890eb6f8fe99f28cb133e10285a371b09aacf5bb4e343a0019",
+      "account_address": "2eb858c25ad218ed9ce9d03b6a02ef51fa14d570f882cc5a9937c483c46c5e76",
+      "chain_id": 255,
+      "network": "Localnet",
+      "rpc_url": "http://localhost:27000/",
+      "faucet_url": "http://localhost:27001/"
+    },
+    "foundation_5": {
+      "ed25519_public_key": "77e86f40e44b49d8da8e4bf0ea6aae73021e05f8a1c768d3598b9d4cc7d4d7ef",
+      "account_address": "c09bc89141f3530e3b98a704a1ecc10e10d2cac0b799cc031f13a24714f36e64",
+      "chain_id": 255,
+      "network": "Localnet",
+      "rpc_url": "http://localhost:27000/",
+      "faucet_url": "http://localhost:27001/"
+    }
+  },
+  "version": "8337eff617875215e8ce4734db339ee5d17e37b5"
+}

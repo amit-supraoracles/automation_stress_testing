@@ -1,0 +1,15 @@
+[package]
+name = "governance_proposal_script"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "aptosvm-v1.16_supra-v1.6.10.rc2"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]

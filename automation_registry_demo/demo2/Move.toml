@@ -1,0 +1,11 @@
+[package]
+name = 'demo2'
+version = '0.1.1'
+
+[dependencies.SupraFramework]
+git = 'https://github.com/Entropy-Foundation/aptos-core.git'
+subdir = 'aptos-move/framework/supra-framework'
+rev = 'dev'
+
+[addresses]
+demo2 = "0x923d7841fab8617ae8f3e2b0f99f386bab4400a4945aa5d094ddc0d943301c77"

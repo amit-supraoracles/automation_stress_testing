@@ -1,0 +1,72 @@
+Only reconfiguration without active tasks
+    {
+        "execution_gas_units": "19",
+        "io_gas_units": "40",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "58"
+    }
+    
+Only reconfiguration with 500 active tasks
+    {
+        "execution_gas_units": "1589",
+        "io_gas_units": "811",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "2400"
+    }
+
+
+Gas schedule change with reconfiguration and without active tasks
+    {
+        "execution_gas_units": "47",
+        "io_gas_units": "47",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "93"
+    }
+
+Gas schedule change with reconfiguration and with 500 active tasks
+    {
+        "execution_gas_units": "1618",
+        "io_gas_units": "818",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "2436"
+    }
+
+Framework upgrade without reconfiguration and without 500 active tasks
+    {
+        "execution_gas_units": "4922",
+        "io_gas_units": "198",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "5120"
+    }
+
+Framework upgrade without reconfiguration and with 500 active tasks
+    {
+        "execution_gas_units": "4922",
+        "io_gas_units": "198",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "5120"
+    }
+
+Framework upgrade with reconfiguration and without active tasks
+    {
+        "execution_gas_units": "4935",
+        "io_gas_units": "232",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "5166"
+    }
+
+Framework upgrade with reconfiguration and with 500 active tasks
+    {
+        "execution_gas_units": "6505",
+        "io_gas_units": "1004",
+        "storage_fee_quants": "0",
+        "storage_fee_refund_quants": "0",
+        "total_charge_gas_units": "7509"
+    }

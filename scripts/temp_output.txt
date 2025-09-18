@@ -1,0 +1,749 @@
+../../smr-moonshot/remote_env/Logs/owners/0x181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048 creating proposal
+spawn ../../smr-moonshot/target/release/supra governance propose --metadata-url https://raw.githubusercontent.com/Entropy-Foundation/smr-moonshot/refs/heads/dev/remote_env/move_workspace/proposals/proposal_one.json?token=GHSAT0AAAAAACMRJFS7USRZOG7RLKDBZYTK2BLKRBA --compiled-script-path ../governance_proposal_script/build/governance_proposal_script/bytecode_scripts/supra_framework_upgarde_proposal.mv --rpc-url http://localhost:27001/ --is-multi-step
+Proposal:
+	Title:Disable the new feature x
+	Description:This is an example proposal discussion for Supra blockchain.
+	Source code URL:https://github.com/Entropy-Foundation/smr-moonshot/blob/governance_tool/remote_env/move_workspace/proposals/proposal_one.move
+	Discussion URL:https://github.com/Entropy-Foundation/smr-moonshot/discussions/980
+	Metadata Hash: da2a4d90
+	Script Hash: 105f9bb2
+Do you want to submit this proposal? [yes/no] >
+y
+Enter your password: 
+account: 181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048
+[?25l[38;5;10m?[39m Proceed with a Max Gas Amount of 690? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[91C[?25h[?25l[91D[38;5;10m>[39m Proceed with a Max Gas Amount of 690? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25h[?25l[38;5;10m?[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[98C[?25h[?25l[98D[38;5;10m>[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25haccount: 181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048
+⠁ Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x87ebdb8f86af636ce4f307c1ef23e8a2a9154150b642c429339fbf664e7d4602",
+        "signature": "0x67ce52b56734b205fa939c2b254399edc795c1746ae0918d84aeee2c683902228a83974220dece6b4ed2dd7296674c7c776e1f6dd3ef3456aaf4d7c83358340a"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x78c84e66364d93a1a5beebfb6cce0b9de28385910128c202098c9922604241e5",
+    "height": 844,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1747667355408409,
+      "utc_date_time": "2025-05-19T15:09:15.408409+00:00"
+    }
+  },
+  "hash": "0x2dd11c7b5fb41ff641b69253d37e0811a8d32a1f65a281939dfe01ac18c1e845",
+  "header": {
+    "chain_id": 255,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1747667385000000,
+      "utc_date_time": "2025-05-19T15:09:45+00:00"
+    },
+    "sender": {
+      "Move": "0x181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048"
+    },
+    "sequence_number": 17,
+    "gas_unit_price": 100,
+    "max_gas_amount": 690
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::supra_governance::supra_create_proposal_v2",
+      "type_arguments": [],
+      "arguments": [
+        "0x105f9bb27ef023f7ea72d68146d6f222838e8cda97e10b0c403bda0b91b4c9c3",
+        "0x68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f456e74726f70792d466f756e646174696f6e2f736d722d6d6f6f6e73686f742f726566732f68656164732f6465762f72656d6f74655f656e762f6d6f76655f776f726b73706163652f70726f706f73616c732f70726f706f73616c5f6f6e652e6a736f6e3f746f6b656e3d474853415430414141414141434d524a4653375553525a4f4737524c4b44425a59544b32424c4b524241",
+        "0x64613261346439303963343961643431383638326637656162663761653436326265643933656262326433386666343565323833633961366663376261323561",
+        true
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 690,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::multisig_voting::CreateProposal",
+          "data": {
+            "execution_hash": "0x105f9bb27ef023f7ea72d68146d6f222838e8cda97e10b0c403bda0b91b4c9c3",
+            "expiration_secs": "1747674555",
+            "metadata": {
+              "data": [
+                {
+                  "key": "metadata_location",
+                  "value": "0x68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f456e74726f70792d466f756e646174696f6e2f736d722d6d6f6f6e73686f742f726566732f68656164732f6465762f72656d6f74655f656e762f6d6f76655f776f726b73706163652f70726f706f73616c732f70726f706f73616c5f6f6e652e6a736f6e3f746f6b656e3d474853415430414141414141434d524a4653375553525a4f4737524c4b44425a59544b32424c4b524241"
+                },
+                {
+                  "key": "metadata_hash",
+                  "value": "0x64613261346439303963343961643431383638326637656162663761653436326265643933656262326433386666343565323833633961366663376261323561"
+                },
+                {
+                  "key": "IS_MULTI_STEP_PROPOSAL_KEY",
+                  "value": "0x01"
+                },
+                {
+                  "key": "IS_MULTI_STEP_PROPOSAL_IN_EXECUTION",
+                  "value": "0x00"
+                }
+              ]
+            },
+            "min_vote_threshold": "4",
+            "proposal_id": "9"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "5",
+            "account_address": "0x1"
+          },
+          "sequence_number": "9",
+          "type": "0x1::multisig_voting::CreateProposalEvent",
+          "data": {
+            "execution_hash": "0x105f9bb27ef023f7ea72d68146d6f222838e8cda97e10b0c403bda0b91b4c9c3",
+            "expiration_secs": "1747674555",
+            "metadata": {
+              "data": [
+                {
+                  "key": "metadata_location",
+                  "value": "0x68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f456e74726f70792d466f756e646174696f6e2f736d722d6d6f6f6e73686f742f726566732f68656164732f6465762f72656d6f74655f656e762f6d6f76655f776f726b73706163652f70726f706f73616c732f70726f706f73616c5f6f6e652e6a736f6e3f746f6b656e3d474853415430414141414141434d524a4653375553525a4f4737524c4b44425a59544b32424c4b524241"
+                },
+                {
+                  "key": "metadata_hash",
+                  "value": "0x64613261346439303963343961643431383638326637656162663761653436326265643933656262326433386666343565323833633961366663376261323561"
+                },
+                {
+                  "key": "IS_MULTI_STEP_PROPOSAL_KEY",
+                  "value": "0x01"
+                },
+                {
+                  "key": "IS_MULTI_STEP_PROPOSAL_IN_EXECUTION",
+                  "value": "0x00"
+                }
+              ]
+            },
+            "min_vote_threshold": "4",
+            "proposal_id": "9"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::supra_governance::SupraCreateProposal",
+          "data": {
+            "execution_hash": "0x105f9bb27ef023f7ea72d68146d6f222838e8cda97e10b0c403bda0b91b4c9c3",
+            "proposal_id": "9",
+            "proposal_metadata": {
+              "data": [
+                {
+                  "key": "metadata_location",
+                  "value": "0x68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f456e74726f70792d466f756e646174696f6e2f736d722d6d6f6f6e73686f742f726566732f68656164732f6465762f72656d6f74655f656e762f6d6f76655f776f726b73706163652f70726f706f73616c732f70726f706f73616c5f6f6e652e6a736f6e3f746f6b656e3d474853415430414141414141434d524a4653375553525a4f4737524c4b44425a59544b32424c4b524241"
+                },
+                {
+                  "key": "metadata_hash",
+                  "value": "0x64613261346439303963343961643431383638326637656162663761653436326265643933656262326433386666343565323833633961366663376261323561"
+                }
+              ]
+            },
+            "proposer": "0x181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "9",
+            "account_address": "0x1"
+          },
+          "sequence_number": "9",
+          "type": "0x1::supra_governance::SupraCreateProposalEvent",
+          "data": {
+            "execution_hash": "0x105f9bb27ef023f7ea72d68146d6f222838e8cda97e10b0c403bda0b91b4c9c3",
+            "proposal_id": "9",
+            "proposal_metadata": {
+              "data": [
+                {
+                  "key": "metadata_location",
+                  "value": "0x68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f456e74726f70792d466f756e646174696f6e2f736d722d6d6f6f6e73686f742f726566732f68656164732f6465762f72656d6f74655f656e762f6d6f76655f776f726b73706163652f70726f706f73616c732f70726f706f73616c5f6f6e652e6a736f6e3f746f6b656e3d474853415430414141414141434d524a4653375553525a4f4737524c4b44425a59544b32424c4b524241"
+                },
+                {
+                  "key": "metadata_hash",
+                  "value": "0x64613261346439303963343961643431383638326637656162663761653436326265643933656262326433386666343565323833633961366663376261323561"
+                }
+              ]
+            },
+            "proposer": "0x181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "5",
+            "io_gas_units": "6",
+            "storage_fee_quants": "67960",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "690"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+../../smr-moonshot/remote_env/Logs/owners/0x549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173 voting for proposal
+spawn ../../smr-moonshot/target/release/supra governance vote --proposal-id 9 --yes --rpc-url http://localhost:27001/
+Enter your password: 
+account: 549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173
+[?25l[38;5;10m?[39m Proceed with a Max Gas Amount of 452? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[91C[?25h[?25l[91D[38;5;10m>[39m Proceed with a Max Gas Amount of 452? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25h[?25l[38;5;10m?[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[98C[?25h[?25l[98D[38;5;10m>[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25haccount: 549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173
+⠁ Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xd1f99aaed6d8c1d1ad37a267013b9c48c5aab8cd0c3c64eaa876c92c6793fb67",
+        "signature": "0x79ef4262a8c5a9208df17e3fdf006d3cbba9a4f5611fc49977935b6f50fed4d0d4fbf85b17e16a8b0631d205bc2cabc69a1fded7593db80e7869aa7d383dd20e"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x05e0c8165fda365143c5444052b6ba5301cfed49edd4f1cf7fe7cd2918dd26ae",
+    "height": 846,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1747667359292968,
+      "utc_date_time": "2025-05-19T15:09:19.292968+00:00"
+    }
+  },
+  "hash": "0x824cfc461f8b869dc728d4fc0becfa9347fc901109ebfa861d36773fd3302166",
+  "header": {
+    "chain_id": 255,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1747667389000000,
+      "utc_date_time": "2025-05-19T15:09:49+00:00"
+    },
+    "sender": {
+      "Move": "0x549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173"
+    },
+    "sequence_number": 15,
+    "gas_unit_price": 100,
+    "max_gas_amount": 452
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::supra_governance::supra_vote",
+      "type_arguments": [],
+      "arguments": [
+        "9",
+        true
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 452,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::multisig_voting::Vote",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0x549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "8",
+            "account_address": "0x1"
+          },
+          "sequence_number": "32",
+          "type": "0x1::multisig_voting::VoteEvent",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0x549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::supra_governance::SupraVote",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0x549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "11",
+            "account_address": "0x1"
+          },
+          "sequence_number": "32",
+          "type": "0x1::supra_governance::SupraVoteEvent",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0x549871f9fade58ed574b8b82e6745381e063826dbf1dcaa025b6c1030175b173"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "6",
+            "io_gas_units": "6",
+            "storage_fee_quants": "44120",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "452"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+../../smr-moonshot/remote_env/Logs/owners/0x9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833 voting for proposal
+spawn ../../smr-moonshot/target/release/supra governance vote --proposal-id 9 --yes --rpc-url http://localhost:27001/
+Enter your password: 
+account: 9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833
+[?25l[38;5;10m?[39m Proceed with a Max Gas Amount of 437? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[91C[?25h[?25l[91D[38;5;10m>[39m Proceed with a Max Gas Amount of 437? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25h[?25l[38;5;10m?[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[98C[?25h[?25l[98D[38;5;10m>[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25haccount: 9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833
+⠁ Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xcfbb55fa410cd257386813774f863a25fd9aa726a1bedf9d99775f269712fdb6",
+        "signature": "0xb356a16c1c455ef444d14756882b10d83c6c51c40e88a9d9d320966d0943ec01740ace377feb62caef607e51eeb6314fed733c1b398235634ba2a21f79fb4402"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x24a6bf3eb1b3f4df2b10a3073762e9ee63d6b41a1f2dc9d9c37dd5ffc9241e11",
+    "height": 848,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1747667363710153,
+      "utc_date_time": "2025-05-19T15:09:23.710153+00:00"
+    }
+  },
+  "hash": "0x75db7a650832ceff5126d5f29b5dccd38ca9d1bb28bf238303d692e84fabc1ca",
+  "header": {
+    "chain_id": 255,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1747667393000000,
+      "utc_date_time": "2025-05-19T15:09:53+00:00"
+    },
+    "sender": {
+      "Move": "0x9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833"
+    },
+    "sequence_number": 8,
+    "gas_unit_price": 100,
+    "max_gas_amount": 437
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::supra_governance::supra_vote",
+      "type_arguments": [],
+      "arguments": [
+        "9",
+        true
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 437,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::multisig_voting::Vote",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0x9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "8",
+            "account_address": "0x1"
+          },
+          "sequence_number": "33",
+          "type": "0x1::multisig_voting::VoteEvent",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0x9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::supra_governance::SupraVote",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0x9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "11",
+            "account_address": "0x1"
+          },
+          "sequence_number": "33",
+          "type": "0x1::supra_governance::SupraVoteEvent",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0x9c45fee3f409479a61ccb60530f600b6c67d776da46c177664132cbaffc9f833"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "6",
+            "io_gas_units": "6",
+            "storage_fee_quants": "42600",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "437"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+../../smr-moonshot/remote_env/Logs/owners/0xa3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf voting for proposal
+spawn ../../smr-moonshot/target/release/supra governance vote --proposal-id 9 --yes --rpc-url http://localhost:27001/
+Enter your password: 
+account: a3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf
+[?25l[38;5;10m?[39m Proceed with a Max Gas Amount of 437? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[91C[?25h[?25l[91D[38;5;10m>[39m Proceed with a Max Gas Amount of 437? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25h[?25l[38;5;10m?[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[98C[?25h[?25l[98D[38;5;10m>[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25haccount: a3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf
+⠁ Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x86e43bb7323e376594295a1bc428b095566697c13061ce76009db195c55335fe",
+        "signature": "0xfc74c9b06070e6d13ae4d6952588e7bb82621940fbfe7878f91bd56b545d26ca9ffef9b17e651e1226e07ca428726a4f488693983f5e4d7781c4954e621c0605"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xdc3314675ef30ba39f4acde2ccacbd42129f919af8ed39592394f25463f9f41e",
+    "height": 850,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1747667367630706,
+      "utc_date_time": "2025-05-19T15:09:27.630706+00:00"
+    }
+  },
+  "hash": "0xba5b1c1902a74d51ce9ce3a23d2f3e67b0c2ec4e41a6122fad9a652afa2f5a40",
+  "header": {
+    "chain_id": 255,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1747667397000000,
+      "utc_date_time": "2025-05-19T15:09:57+00:00"
+    },
+    "sender": {
+      "Move": "0xa3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf"
+    },
+    "sequence_number": 8,
+    "gas_unit_price": 100,
+    "max_gas_amount": 437
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::supra_governance::supra_vote",
+      "type_arguments": [],
+      "arguments": [
+        "9",
+        true
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 437,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::multisig_voting::Vote",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0xa3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "8",
+            "account_address": "0x1"
+          },
+          "sequence_number": "34",
+          "type": "0x1::multisig_voting::VoteEvent",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0xa3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::supra_governance::SupraVote",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0xa3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "11",
+            "account_address": "0x1"
+          },
+          "sequence_number": "34",
+          "type": "0x1::supra_governance::SupraVoteEvent",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0xa3ec4e9ac5e9a8d91d83abeb867fea4d94ed0127feb7fd5a5d21b9faae4cbebf"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "6",
+            "io_gas_units": "6",
+            "storage_fee_quants": "42600",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "437"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+../../smr-moonshot/remote_env/Logs/owners/0xc3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd voting for proposal
+spawn ../../smr-moonshot/target/release/supra governance vote --proposal-id 9 --yes --rpc-url http://localhost:27001/
+Enter your password: 
+account: c3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd
+[?25l[38;5;10m?[39m Proceed with a Max Gas Amount of 439? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[91C[?25h[?25l[91D[38;5;10m>[39m Proceed with a Max Gas Amount of 439? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25h[?25l[38;5;10m?[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[98C[?25h[?25l[98D[38;5;10m>[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25haccount: c3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd
+⠁ Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x94e01095291f726328867757f9064cf87cadcfe894e263b785747b242f5c77fa",
+        "signature": "0xc04f6dc930b8a4e4459bb6e7353dd6dabce75ed5c2c0460e911f11789e35d89b42d03c8ac7dd665f49f890e9226d7ac0313d4e8a1ad37b3df8f5ae8891445608"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x0ef99cc48dece7fdcc91e6b88c3cb4a74752d7fc618a530df7e9984a6814c6f2",
+    "height": 852,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1747667371959624,
+      "utc_date_time": "2025-05-19T15:09:31.959624+00:00"
+    }
+  },
+  "hash": "0x23309b7db6bc8350f484b6b0cb1660a0bceba78a9ceabf41191b3d88a5db81a9",
+  "header": {
+    "chain_id": 255,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1747667401000000,
+      "utc_date_time": "2025-05-19T15:10:01+00:00"
+    },
+    "sender": {
+      "Move": "0xc3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd"
+    },
+    "sequence_number": 8,
+    "gas_unit_price": 100,
+    "max_gas_amount": 439
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::supra_governance::supra_vote",
+      "type_arguments": [],
+      "arguments": [
+        "9",
+        true
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 439,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::multisig_voting::Vote",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0xc3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "8",
+            "account_address": "0x1"
+          },
+          "sequence_number": "35",
+          "type": "0x1::multisig_voting::VoteEvent",
+          "data": {
+            "is_vote_yes": true,
+            "proposal_id": "9",
+            "voter": "0xc3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::supra_governance::SupraVote",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0xc3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "11",
+            "account_address": "0x1"
+          },
+          "sequence_number": "35",
+          "type": "0x1::supra_governance::SupraVoteEvent",
+          "data": {
+            "proposal_id": "9",
+            "should_pass": true,
+            "voter": "0xc3d4d0605caa8106bba5b119c07badb41b3e478beb41abd661de9dcf937defdd"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "6",
+            "io_gas_units": "7",
+            "storage_fee_quants": "42600",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "439"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+../../smr-moonshot/remote_env/Logs/owners/0x181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048 executing proposal
+spawn ../../smr-moonshot/target/release/supra move tool run-script --compiled-script-path ../governance_proposal_script/build/governance_proposal_script/bytecode_scripts/supra_framework_upgarde_proposal.mv --args u64:9 --rpc-url http://localhost:27001/
+Enter your password: 
+account: 181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048
+[?25l[38;5;10m?[39m Proceed with a Max Gas Amount of 7509? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[92C[?25h[?25l[92D[38;5;10m>[39m Proceed with a Max Gas Amount of 7509? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25h[?25l[38;5;10m?[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value.  
+[38;5;14m[[39m[38;5;14mLeave blank and press Return to accept the value[39m[38;5;14m][39m[1A[98C[?25h[?25l[98D[38;5;10m>[39m Proceed with a Gas Unit Price of 100 Quants? Press return to accept or enter a different value. [K
+[2K
+[?25h[1A[?25haccount: 181f54e6719aae2ac06ffcb4f69d52477ac4705471c1f968a29a1c27388a3048
+⠁ Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Waiting for the transaction to finalize...                                                                                                                                [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠹[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠸[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠼[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠼[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠴[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠴[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠦[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠦[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠧[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠧[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠇[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠇[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠋[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠋[0m Still waiting... Current status: Pending                                                                                                                                  [2K[32m⠙[0m Still waiting... Current status: Pending                                                                                                                                  

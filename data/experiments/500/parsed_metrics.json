@@ -1,0 +1,3344 @@
+{
+  "total_blocks_stats": {
+    "min": {
+      "data": 51,
+      "EpochIndex": 0
+    },
+    "max": {
+      "data": 66,
+      "EpochIndex": 4
+    },
+    "mean": 56.8
+  },
+  "boundary_block_execution_time_stats": {
+    "min": {
+      "data": 0.434591162,
+      "EpochIndex": 3
+    },
+    "max": {
+      "data": 1.293162252,
+      "EpochIndex": 1
+    },
+    "mean": 0.820227469
+  },
+  "automation_task_load_time_stats": {
+    "min": {
+      "data": 0.06965056,
+      "EpochIndex": 1
+    },
+    "max": {
+      "data": 0.110797269,
+      "EpochIndex": 4
+    },
+    "mean": 0.08755986460000001
+  },
+  "transactions_execution_time_stats": {
+    "min": {
+      "data": 0.820452309,
+      "EpochIndex": 4
+    },
+    "max": {
+      "data": 1.554434496,
+      "EpochIndex": 4
+    },
+    "mean": 1.1311501406830988
+  },
+  "block_execution_time_stats": {
+    "min": {
+      "data": 0.874659164,
+      "EpochIndex": 4
+    },
+    "max": {
+      "data": 1.5990951020000002,
+      "EpochIndex": 2
+    },
+    "mean": 1.1611400322992957
+  },
+  "epochs_level_metrics": {
+    "epoch_index_0": {
+      "total_blocks": 51,
+      "boundary_block_execution_time": 0.712419384,
+      "automation_task_load_time": 0.069894585,
+      "transactions_execution_time_stats": {
+        "min": {
+          "data": 0.894218286,
+          "Block": 2112
+        },
+        "max": {
+          "data": 1.086009633,
+          "Block": 2127
+        },
+        "mean": 1.0190425749607843,
+        "median": 1.027084542
+      },
+      "block_execution_time_stats": {
+        "min": {
+          "data": 0.928540755,
+          "Block": 2112
+        },
+        "max": {
+          "data": 1.108017518,
+          "Block": 2127
+        },
+        "mean": 1.0491439913725495,
+        "median": 1.055002458
+      },
+      "automation_transactions_payload_generation_time_stats": {
+        "min": {
+          "data": 0.00201144,
+          "Block": 2104
+        },
+        "max": {
+          "data": 0.004843522,
+          "Block": 2085
+        },
+        "mean": 0.0027487595490196075,
+        "median": 0.002262008
+      },
+      "total_user_transactions_stats": {
+        "min": {
+          "data": 1,
+          "Block": 2078
+        },
+        "max": {
+          "data": 1,
+          "Block": 2078
+        },
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "total_automation_transactions_stats": {
+        "min": {
+          "data": 500,
+          "Block": 2078
+        },
+        "max": {
+          "data": 500,
+          "Block": 2078
+        },
+        "mean": 500.0,
+        "median": 500.0
+      },
+      "total_gas_used_stats": {
+        "min": {
+          "data": 27000,
+          "Block": 2078
+        },
+        "max": {
+          "data": 27000,
+          "Block": 2078
+        },
+        "mean": 27000.0,
+        "median": 27000.0
+      },
+      "block_level_metrics": {
+        "block_2078": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.0780898,
+          "block_execution_time": 1.102577474,
+          "automation_transactions_payload_generation_time": 0.003960838,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2079": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.008437348,
+          "block_execution_time": 1.041245916,
+          "automation_transactions_payload_generation_time": 0.00206947,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2080": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.988571402,
+          "block_execution_time": 1.014755638,
+          "automation_transactions_payload_generation_time": 0.002262403,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2081": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.067139407,
+          "block_execution_time": 1.086863846,
+          "automation_transactions_payload_generation_time": 0.002216626,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2082": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.000314687,
+          "block_execution_time": 1.042084333,
+          "automation_transactions_payload_generation_time": 0.00420444,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2083": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.066168796,
+          "block_execution_time": 1.095561772,
+          "automation_transactions_payload_generation_time": 0.004080024,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2084": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.052473306,
+          "block_execution_time": 1.091749084,
+          "automation_transactions_payload_generation_time": 0.002105366,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2085": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.997206537,
+          "block_execution_time": 1.030812743,
+          "automation_transactions_payload_generation_time": 0.004843522,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2086": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.049728729,
+          "block_execution_time": 1.08223822,
+          "automation_transactions_payload_generation_time": 0.00211524,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2087": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.041124283,
+          "block_execution_time": 1.063447437,
+          "automation_transactions_payload_generation_time": 0.004284723,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2088": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.027762835,
+          "block_execution_time": 1.049334688,
+          "automation_transactions_payload_generation_time": 0.002936794,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2089": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.023759065,
+          "block_execution_time": 1.056560622,
+          "automation_transactions_payload_generation_time": 0.00237277,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2090": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.997102541,
+          "block_execution_time": 1.045242951,
+          "automation_transactions_payload_generation_time": 0.002426205,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2091": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.033285017,
+          "block_execution_time": 1.055096423,
+          "automation_transactions_payload_generation_time": 0.003888446,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2092": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.041827686,
+          "block_execution_time": 1.071167442,
+          "automation_transactions_payload_generation_time": 0.002126713,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2093": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038261188,
+          "block_execution_time": 1.05513342,
+          "automation_transactions_payload_generation_time": 0.002096493,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2094": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.031141145,
+          "block_execution_time": 1.05955313,
+          "automation_transactions_payload_generation_time": 0.004171915,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2095": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.988031803,
+          "block_execution_time": 1.024332746,
+          "automation_transactions_payload_generation_time": 0.004293054,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2096": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.044111184,
+          "block_execution_time": 1.06424506,
+          "automation_transactions_payload_generation_time": 0.002597969,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2097": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.037273143,
+          "block_execution_time": 1.057056353,
+          "automation_transactions_payload_generation_time": 0.002174974,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2098": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.064826758,
+          "block_execution_time": 1.090019557,
+          "automation_transactions_payload_generation_time": 0.002089817,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2099": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.023937617,
+          "block_execution_time": 1.050229799,
+          "automation_transactions_payload_generation_time": 0.00404593,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2100": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.014146974,
+          "block_execution_time": 1.041588949,
+          "automation_transactions_payload_generation_time": 0.002262693,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2101": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.019032346,
+          "block_execution_time": 1.059350001,
+          "automation_transactions_payload_generation_time": 0.004095391,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2102": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.019166385,
+          "block_execution_time": 1.040368985,
+          "automation_transactions_payload_generation_time": 0.002102355,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2103": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.027084542,
+          "block_execution_time": 1.075769337,
+          "automation_transactions_payload_generation_time": 0.002188292,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2104": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.031828183,
+          "block_execution_time": 1.055002458,
+          "automation_transactions_payload_generation_time": 0.00201144,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2105": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.969186062,
+          "block_execution_time": 0.995252835,
+          "automation_transactions_payload_generation_time": 0.002055419,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2106": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.082951626,
+          "block_execution_time": 1.107959347,
+          "automation_transactions_payload_generation_time": 0.003054874,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2107": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.030686792,
+          "block_execution_time": 1.055911532,
+          "automation_transactions_payload_generation_time": 0.002962612,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2108": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.99405169,
+          "block_execution_time": 1.018693895,
+          "automation_transactions_payload_generation_time": 0.002137474,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2109": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.954449422,
+          "block_execution_time": 1.019462357,
+          "automation_transactions_payload_generation_time": 0.002495749,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2110": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.002733199,
+          "block_execution_time": 1.034513719,
+          "automation_transactions_payload_generation_time": 0.003824348,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2111": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.064727922,
+          "block_execution_time": 1.091238918,
+          "automation_transactions_payload_generation_time": 0.004519686,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2112": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.894218286,
+          "block_execution_time": 0.928540755,
+          "automation_transactions_payload_generation_time": 0.002178856,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2113": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.971927498,
+          "block_execution_time": 0.995443554,
+          "automation_transactions_payload_generation_time": 0.002208193,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2114": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.974140337,
+          "block_execution_time": 1.016476197,
+          "automation_transactions_payload_generation_time": 0.002328214,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2115": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.053179405,
+          "block_execution_time": 1.072154564,
+          "automation_transactions_payload_generation_time": 0.002064871,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2116": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.033615231,
+          "block_execution_time": 1.051039308,
+          "automation_transactions_payload_generation_time": 0.002253889,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2117": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038986537,
+          "block_execution_time": 1.073078383,
+          "automation_transactions_payload_generation_time": 0.002057271,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2118": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.978120428,
+          "block_execution_time": 1.015463078,
+          "automation_transactions_payload_generation_time": 0.002129625,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2119": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.964457152,
+          "block_execution_time": 0.985892927,
+          "automation_transactions_payload_generation_time": 0.00212809,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2120": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.974377728,
+          "block_execution_time": 1.023979026,
+          "automation_transactions_payload_generation_time": 0.002103644,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2121": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.032548649,
+          "block_execution_time": 1.07499948,
+          "automation_transactions_payload_generation_time": 0.002120699,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2122": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.021104976,
+          "block_execution_time": 1.054781542,
+          "automation_transactions_payload_generation_time": 0.002143986,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2123": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.036835011,
+          "block_execution_time": 1.063236203,
+          "automation_transactions_payload_generation_time": 0.002149417,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2124": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.91216423,
+          "block_execution_time": 0.949670575,
+          "automation_transactions_payload_generation_time": 0.002458453,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2125": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.075051135,
+          "block_execution_time": 1.10021032,
+          "automation_transactions_payload_generation_time": 0.002266881,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2126": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.000058455,
+          "block_execution_time": 1.032468775,
+          "automation_transactions_payload_generation_time": 0.002079152,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2127": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.086009633,
+          "block_execution_time": 1.108017518,
+          "automation_transactions_payload_generation_time": 0.004179423,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2128": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.013757212,
+          "block_execution_time": 1.036470368,
+          "automation_transactions_payload_generation_time": 0.002262008,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2129": {
+          "is_boundary_block": true,
+          "transactions_execution_time": 0.630314887,
+          "block_execution_time": 0.712419384,
+          "automation_transactions_payload_generation_time": 0.002401816,
+          "automation_task_load_time": 0.069894585,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 0
+        }
+      }
+    },
+    "epoch_index_1": {
+      "total_blocks": 52,
+      "boundary_block_execution_time": 1.293162252,
+      "automation_task_load_time": 0.06965056,
+      "transactions_execution_time_stats": {
+        "min": {
+          "data": 0.859514462,
+          "Block": 2151
+        },
+        "max": {
+          "data": 1.121615754,
+          "Block": 2169
+        },
+        "mean": 1.025702306442308,
+        "median": 1.0298172955
+      },
+      "block_execution_time_stats": {
+        "min": {
+          "data": 0.904032834,
+          "Block": 2151
+        },
+        "max": {
+          "data": 1.145060431,
+          "Block": 2169
+        },
+        "mean": 1.0499630776153845,
+        "median": 1.0505843045
+      },
+      "automation_transactions_payload_generation_time_stats": {
+        "min": {
+          "data": 0.002036867,
+          "Block": 2131
+        },
+        "max": {
+          "data": 0.004226878,
+          "Block": 2171
+        },
+        "mean": 0.002569401384615385,
+        "median": 0.0023347605
+      },
+      "total_user_transactions_stats": {
+        "min": {
+          "data": 1,
+          "Block": 2130
+        },
+        "max": {
+          "data": 1,
+          "Block": 2130
+        },
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "total_automation_transactions_stats": {
+        "min": {
+          "data": 500,
+          "Block": 2130
+        },
+        "max": {
+          "data": 500,
+          "Block": 2130
+        },
+        "mean": 500.0,
+        "median": 500.0
+      },
+      "total_gas_used_stats": {
+        "min": {
+          "data": 27000,
+          "Block": 2130
+        },
+        "max": {
+          "data": 27000,
+          "Block": 2130
+        },
+        "mean": 27000.0,
+        "median": 27000.0
+      },
+      "block_level_metrics": {
+        "block_2130": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.016037111,
+          "block_execution_time": 1.050354172,
+          "automation_transactions_payload_generation_time": 0.004123632,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2131": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.0547021,
+          "block_execution_time": 1.076782718,
+          "automation_transactions_payload_generation_time": 0.002036867,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2132": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.020624202,
+          "block_execution_time": 1.055036619,
+          "automation_transactions_payload_generation_time": 0.002370536,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2133": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.995344688,
+          "block_execution_time": 1.029493001,
+          "automation_transactions_payload_generation_time": 0.002272951,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2134": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.017292259,
+          "block_execution_time": 1.040668599,
+          "automation_transactions_payload_generation_time": 0.004090593,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2135": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.022686972,
+          "block_execution_time": 1.044431684,
+          "automation_transactions_payload_generation_time": 0.002246588,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2136": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.084236776,
+          "block_execution_time": 1.112072607,
+          "automation_transactions_payload_generation_time": 0.00258322,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2137": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.030988461,
+          "block_execution_time": 1.055512207,
+          "automation_transactions_payload_generation_time": 0.003047859,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2138": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.986751777,
+          "block_execution_time": 1.020496508,
+          "automation_transactions_payload_generation_time": 0.002232527,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2139": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.037194733,
+          "block_execution_time": 1.059149556,
+          "automation_transactions_payload_generation_time": 0.002510153,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2140": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.02864613,
+          "block_execution_time": 1.049937927,
+          "automation_transactions_payload_generation_time": 0.002391215,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2141": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.105680644,
+          "block_execution_time": 1.127324204,
+          "automation_transactions_payload_generation_time": 0.002440143,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2142": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.031105144,
+          "block_execution_time": 1.049318699,
+          "automation_transactions_payload_generation_time": 0.002204629,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2143": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.009376358,
+          "block_execution_time": 1.031952723,
+          "automation_transactions_payload_generation_time": 0.002194737,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2144": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.035082169,
+          "block_execution_time": 1.063444412,
+          "automation_transactions_payload_generation_time": 0.002228156,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2145": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.056172405,
+          "block_execution_time": 1.077398347,
+          "automation_transactions_payload_generation_time": 0.002353318,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2146": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.037756086,
+          "block_execution_time": 1.057934481,
+          "automation_transactions_payload_generation_time": 0.002316203,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2147": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.988015901,
+          "block_execution_time": 1.02680433,
+          "automation_transactions_payload_generation_time": 0.00214817,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2148": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.031532406,
+          "block_execution_time": 1.054746351,
+          "automation_transactions_payload_generation_time": 0.002189695,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2149": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.005272276,
+          "block_execution_time": 1.032512523,
+          "automation_transactions_payload_generation_time": 0.002444793,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2150": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.032337393,
+          "block_execution_time": 1.050814437,
+          "automation_transactions_payload_generation_time": 0.002273612,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2151": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.859514462,
+          "block_execution_time": 0.904032834,
+          "automation_transactions_payload_generation_time": 0.00216312,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2152": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.975560089,
+          "block_execution_time": 0.999970003,
+          "automation_transactions_payload_generation_time": 0.0024791,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2153": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.037826808,
+          "block_execution_time": 1.060570204,
+          "automation_transactions_payload_generation_time": 0.002149334,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2154": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.009798513,
+          "block_execution_time": 1.037639085,
+          "automation_transactions_payload_generation_time": 0.003945006,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2155": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.033086503,
+          "block_execution_time": 1.053897536,
+          "automation_transactions_payload_generation_time": 0.002421637,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2156": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.046232441,
+          "block_execution_time": 1.06993767,
+          "automation_transactions_payload_generation_time": 0.002226424,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2157": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.043994274,
+          "block_execution_time": 1.064815128,
+          "automation_transactions_payload_generation_time": 0.002202752,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2158": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.031132404,
+          "block_execution_time": 1.050998063,
+          "automation_transactions_payload_generation_time": 0.003880973,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2159": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.993342812,
+          "block_execution_time": 1.012160757,
+          "automation_transactions_payload_generation_time": 0.002211472,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2160": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.982159452,
+          "block_execution_time": 1.000896787,
+          "automation_transactions_payload_generation_time": 0.002983945,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2161": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.02041879,
+          "block_execution_time": 1.044563804,
+          "automation_transactions_payload_generation_time": 0.00225094,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2162": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.071152625,
+          "block_execution_time": 1.089740203,
+          "automation_transactions_payload_generation_time": 0.002175779,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2163": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.994445096,
+          "block_execution_time": 1.015425105,
+          "automation_transactions_payload_generation_time": 0.002310207,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2164": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.028473222,
+          "block_execution_time": 1.049947568,
+          "automation_transactions_payload_generation_time": 0.00219503,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2165": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.004861468,
+          "block_execution_time": 1.030392774,
+          "automation_transactions_payload_generation_time": 0.002196917,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2166": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.06385259,
+          "block_execution_time": 1.093853619,
+          "automation_transactions_payload_generation_time": 0.002288642,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2167": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.074780555,
+          "block_execution_time": 1.094483817,
+          "automation_transactions_payload_generation_time": 0.002866537,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2168": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.016587078,
+          "block_execution_time": 1.043762863,
+          "automation_transactions_payload_generation_time": 0.002138719,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2169": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.121615754,
+          "block_execution_time": 1.145060431,
+          "automation_transactions_payload_generation_time": 0.003945756,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2170": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.033142945,
+          "block_execution_time": 1.05526231,
+          "automation_transactions_payload_generation_time": 0.002714922,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2171": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.060577519,
+          "block_execution_time": 1.078135064,
+          "automation_transactions_payload_generation_time": 0.004226878,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2172": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.007808998,
+          "block_execution_time": 1.027744119,
+          "automation_transactions_payload_generation_time": 0.002420571,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2173": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.013921089,
+          "block_execution_time": 1.039191845,
+          "automation_transactions_payload_generation_time": 0.003645172,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2174": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.933940372,
+          "block_execution_time": 0.956546234,
+          "automation_transactions_payload_generation_time": 0.002175395,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2175": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.06543738,
+          "block_execution_time": 1.091928479,
+          "automation_transactions_payload_generation_time": 0.002481142,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2176": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.984603978,
+          "block_execution_time": 1.011309212,
+          "automation_transactions_payload_generation_time": 0.002378758,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2177": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.025075884,
+          "block_execution_time": 1.048761686,
+          "automation_transactions_payload_generation_time": 0.002715935,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2178": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.040944114,
+          "block_execution_time": 1.071772282,
+          "automation_transactions_payload_generation_time": 0.002361395,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2179": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.037254523,
+          "block_execution_time": 1.055677502,
+          "automation_transactions_payload_generation_time": 0.002396176,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2180": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.112432177,
+          "block_execution_time": 1.127163673,
+          "automation_transactions_payload_generation_time": 0.002121837,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2181": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.985710029,
+          "block_execution_time": 1.006253274,
+          "automation_transactions_payload_generation_time": 0.002238804,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2182": {
+          "is_boundary_block": true,
+          "transactions_execution_time": 1.209783509,
+          "block_execution_time": 1.293162252,
+          "automation_transactions_payload_generation_time": 0.003802171,
+          "automation_task_load_time": 0.06965056,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 0
+        }
+      }
+    },
+    "epoch_index_2": {
+      "total_blocks": 64,
+      "boundary_block_execution_time": 0.604497784,
+      "automation_task_load_time": 0.098685526,
+      "transactions_execution_time_stats": {
+        "min": {
+          "data": 0.922664559,
+          "Block": 2187
+        },
+        "max": {
+          "data": 1.510582181,
+          "Block": 2216
+        },
+        "mean": 1.255132945234375,
+        "median": 1.3132247145
+      },
+      "block_execution_time_stats": {
+        "min": {
+          "data": 0.959421993,
+          "Block": 2187
+        },
+        "max": {
+          "data": 1.5990951020000002,
+          "Block": 2216
+        },
+        "mean": 1.285563976765625,
+        "median": 1.3449685009999999
+      },
+      "automation_transactions_payload_generation_time_stats": {
+        "min": {
+          "data": 0.002048243,
+          "Block": 2191
+        },
+        "max": {
+          "data": 0.038853149,
+          "Block": 2215
+        },
+        "mean": 0.0041234501250000015,
+        "median": 0.0036608995
+      },
+      "total_user_transactions_stats": {
+        "min": {
+          "data": 1,
+          "Block": 2183
+        },
+        "max": {
+          "data": 1,
+          "Block": 2183
+        },
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "total_automation_transactions_stats": {
+        "min": {
+          "data": 500,
+          "Block": 2183
+        },
+        "max": {
+          "data": 500,
+          "Block": 2183
+        },
+        "mean": 500.0,
+        "median": 500.0
+      },
+      "total_gas_used_stats": {
+        "min": {
+          "data": 27000,
+          "Block": 2183
+        },
+        "max": {
+          "data": 27000,
+          "Block": 2183
+        },
+        "mean": 27000.0,
+        "median": 27000.0
+      },
+      "block_level_metrics": {
+        "block_2183": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.087016346,
+          "block_execution_time": 1.105590234,
+          "automation_transactions_payload_generation_time": 0.002241138,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2184": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.120613173,
+          "block_execution_time": 1.144070797,
+          "automation_transactions_payload_generation_time": 0.002539477,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2185": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.139542336,
+          "block_execution_time": 1.169197836,
+          "automation_transactions_payload_generation_time": 0.002929815,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2186": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.998731581,
+          "block_execution_time": 1.023622639,
+          "automation_transactions_payload_generation_time": 0.004024473,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2187": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.922664559,
+          "block_execution_time": 0.959421993,
+          "automation_transactions_payload_generation_time": 0.002138547,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2188": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.976568837,
+          "block_execution_time": 1.009892913,
+          "automation_transactions_payload_generation_time": 0.002368897,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2189": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.048153558,
+          "block_execution_time": 1.064777092,
+          "automation_transactions_payload_generation_time": 0.002229828,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2190": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.063670802,
+          "block_execution_time": 1.089280672,
+          "automation_transactions_payload_generation_time": 0.004622752,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2191": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.032706721,
+          "block_execution_time": 1.048880582,
+          "automation_transactions_payload_generation_time": 0.002048243,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2192": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.951585739,
+          "block_execution_time": 0.985115387,
+          "automation_transactions_payload_generation_time": 0.002808137,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2193": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.020679892,
+          "block_execution_time": 1.053111661,
+          "automation_transactions_payload_generation_time": 0.00476579,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2194": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.027421271,
+          "block_execution_time": 1.051599197,
+          "automation_transactions_payload_generation_time": 0.0020951,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2195": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.087696844,
+          "block_execution_time": 1.1125603,
+          "automation_transactions_payload_generation_time": 0.004567988,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2196": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.078422482,
+          "block_execution_time": 1.10633042,
+          "automation_transactions_payload_generation_time": 0.002339636,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2197": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.017562033,
+          "block_execution_time": 1.037661427,
+          "automation_transactions_payload_generation_time": 0.002206548,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2198": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.055184609,
+          "block_execution_time": 1.075110264,
+          "automation_transactions_payload_generation_time": 0.00290352,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2199": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.019448449,
+          "block_execution_time": 1.051859617,
+          "automation_transactions_payload_generation_time": 0.004062804,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2200": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.001786363,
+          "block_execution_time": 1.025459836,
+          "automation_transactions_payload_generation_time": 0.002239856,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2201": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.053197761,
+          "block_execution_time": 1.076756142,
+          "automation_transactions_payload_generation_time": 0.002166398,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2202": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.076056118,
+          "block_execution_time": 1.110064426,
+          "automation_transactions_payload_generation_time": 0.003934233,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2203": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.032263717,
+          "block_execution_time": 1.053626785,
+          "automation_transactions_payload_generation_time": 0.002293134,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2204": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.041781215,
+          "block_execution_time": 1.063225341,
+          "automation_transactions_payload_generation_time": 0.002310975,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2205": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.020979574,
+          "block_execution_time": 1.044233501,
+          "automation_transactions_payload_generation_time": 0.002197606,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2206": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.970825918,
+          "block_execution_time": 0.9944517,
+          "automation_transactions_payload_generation_time": 0.002110469,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2207": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.988799857,
+          "block_execution_time": 1.015660692,
+          "automation_transactions_payload_generation_time": 0.00222179,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2208": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.058867922,
+          "block_execution_time": 1.083095147,
+          "automation_transactions_payload_generation_time": 0.002173331,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2209": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.285813873,
+          "block_execution_time": 1.316729193,
+          "automation_transactions_payload_generation_time": 0.003831695,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2210": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.298769714,
+          "block_execution_time": 1.341385299,
+          "automation_transactions_payload_generation_time": 0.00410991,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2211": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.443382163,
+          "block_execution_time": 1.464276273,
+          "automation_transactions_payload_generation_time": 0.003732988,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2212": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.390695742,
+          "block_execution_time": 1.413511025,
+          "automation_transactions_payload_generation_time": 0.004109021,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2213": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.484166541,
+          "block_execution_time": 1.505254065,
+          "automation_transactions_payload_generation_time": 0.00457246,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2214": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.382114682,
+          "block_execution_time": 1.407049922,
+          "automation_transactions_payload_generation_time": 0.003960462,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2215": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.432624218,
+          "block_execution_time": 1.491929314,
+          "automation_transactions_payload_generation_time": 0.038853149,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2216": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.510582181,
+          "block_execution_time": 1.5990951020000002,
+          "automation_transactions_payload_generation_time": 0.00451157,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2217": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.319238731,
+          "block_execution_time": 1.348551703,
+          "automation_transactions_payload_generation_time": 0.004666896,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2218": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.408080673,
+          "block_execution_time": 1.444598302,
+          "automation_transactions_payload_generation_time": 0.004011414,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2219": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.498689331,
+          "block_execution_time": 1.518130342,
+          "automation_transactions_payload_generation_time": 0.004872401,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2220": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.406528384,
+          "block_execution_time": 1.440668496,
+          "automation_transactions_payload_generation_time": 0.003645546,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2221": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.307210698,
+          "block_execution_time": 1.332623512,
+          "automation_transactions_payload_generation_time": 0.003045326,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2222": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.501189779,
+          "block_execution_time": 1.526104174,
+          "automation_transactions_payload_generation_time": 0.004043563,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2223": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.433618769,
+          "block_execution_time": 1.470073636,
+          "automation_transactions_payload_generation_time": 0.003618131,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2224": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.226484894,
+          "block_execution_time": 1.262104878,
+          "automation_transactions_payload_generation_time": 0.003350908,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2225": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.497113665,
+          "block_execution_time": 1.52285517,
+          "automation_transactions_payload_generation_time": 0.003824964,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2226": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.387574205,
+          "block_execution_time": 1.420595353,
+          "automation_transactions_payload_generation_time": 0.003933491,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2227": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.28344532,
+          "block_execution_time": 1.333735635,
+          "automation_transactions_payload_generation_time": 0.014350733,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2228": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.448913785,
+          "block_execution_time": 1.48911478,
+          "automation_transactions_payload_generation_time": 0.006052138,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2229": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.49144126,
+          "block_execution_time": 1.515521618,
+          "automation_transactions_payload_generation_time": 0.002250217,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2230": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.422297025,
+          "block_execution_time": 1.450763423,
+          "automation_transactions_payload_generation_time": 0.002309898,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2231": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.439819618,
+          "block_execution_time": 1.475063247,
+          "automation_transactions_payload_generation_time": 0.002784388,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2232": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.450695759,
+          "block_execution_time": 1.479950792,
+          "automation_transactions_payload_generation_time": 0.003387765,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2233": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.481613383,
+          "block_execution_time": 1.503614686,
+          "automation_transactions_payload_generation_time": 0.003903796,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2234": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.36060981,
+          "block_execution_time": 1.407041299,
+          "automation_transactions_payload_generation_time": 0.004459433,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2235": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.47489312,
+          "block_execution_time": 1.525103163,
+          "automation_transactions_payload_generation_time": 0.003864601,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2236": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.414572315,
+          "block_execution_time": 1.461734611,
+          "automation_transactions_payload_generation_time": 0.003625359,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2237": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.476573372,
+          "block_execution_time": 1.501151385,
+          "automation_transactions_payload_generation_time": 0.00473608,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2238": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.409711695,
+          "block_execution_time": 1.441715128,
+          "automation_transactions_payload_generation_time": 0.003949165,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2239": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.485079318,
+          "block_execution_time": 1.50478588,
+          "automation_transactions_payload_generation_time": 0.0022714,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2240": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.408470908,
+          "block_execution_time": 1.433913659,
+          "automation_transactions_payload_generation_time": 0.004843565,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2241": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.439473169,
+          "block_execution_time": 1.469076748,
+          "automation_transactions_payload_generation_time": 0.003213212,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2242": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.425697043,
+          "block_execution_time": 1.459237597,
+          "automation_transactions_payload_generation_time": 0.004532088,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2243": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.427386316,
+          "block_execution_time": 1.476085395,
+          "automation_transactions_payload_generation_time": 0.003735577,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2244": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.489092469,
+          "block_execution_time": 1.516276758,
+          "automation_transactions_payload_generation_time": 0.004355631,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2245": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.384123849,
+          "block_execution_time": 1.416358181,
+          "automation_transactions_payload_generation_time": 0.003676253,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2246": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.008493041,
+          "block_execution_time": 1.035658168,
+          "automation_transactions_payload_generation_time": 0.002365129,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2247": {
+          "is_boundary_block": true,
+          "transactions_execution_time": 0.495201302,
+          "block_execution_time": 0.604497784,
+          "automation_transactions_payload_generation_time": 0.002181015,
+          "automation_task_load_time": 0.098685526,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 0
+        }
+      }
+    },
+    "epoch_index_3": {
+      "total_blocks": 51,
+      "boundary_block_execution_time": 0.434591162,
+      "automation_task_load_time": 0.088771383,
+      "transactions_execution_time_stats": {
+        "min": {
+          "data": 0.891237988,
+          "Block": 2257
+        },
+        "max": {
+          "data": 1.099052149,
+          "Block": 2255
+        },
+        "mean": 1.0202432820784317,
+        "median": 1.032368214
+      },
+      "block_execution_time_stats": {
+        "min": {
+          "data": 0.912807479,
+          "Block": 2257
+        },
+        "max": {
+          "data": 1.127286034,
+          "Block": 2252
+        },
+        "mean": 1.0485240748823528,
+        "median": 1.055865272
+      },
+      "automation_transactions_payload_generation_time_stats": {
+        "min": {
+          "data": 0.002002503,
+          "Block": 2260
+        },
+        "max": {
+          "data": 0.004860849,
+          "Block": 2254
+        },
+        "mean": 0.0026851491960784312,
+        "median": 0.002377686
+      },
+      "total_user_transactions_stats": {
+        "min": {
+          "data": 1,
+          "Block": 2248
+        },
+        "max": {
+          "data": 1,
+          "Block": 2248
+        },
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "total_automation_transactions_stats": {
+        "min": {
+          "data": 500,
+          "Block": 2248
+        },
+        "max": {
+          "data": 500,
+          "Block": 2248
+        },
+        "mean": 500.0,
+        "median": 500.0
+      },
+      "total_gas_used_stats": {
+        "min": {
+          "data": 27000,
+          "Block": 2248
+        },
+        "max": {
+          "data": 27000,
+          "Block": 2248
+        },
+        "mean": 27000.0,
+        "median": 27000.0
+      },
+      "block_level_metrics": {
+        "block_2248": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.056853968,
+          "block_execution_time": 1.078245671,
+          "automation_transactions_payload_generation_time": 0.002549228,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2249": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.072538335,
+          "block_execution_time": 1.096791712,
+          "automation_transactions_payload_generation_time": 0.004096136,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2250": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.07676339,
+          "block_execution_time": 1.12647985,
+          "automation_transactions_payload_generation_time": 0.002862986,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2251": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.02804177,
+          "block_execution_time": 1.060478694,
+          "automation_transactions_payload_generation_time": 0.002510719,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2252": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.088246119,
+          "block_execution_time": 1.127286034,
+          "automation_transactions_payload_generation_time": 0.004518254,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2253": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.001565091,
+          "block_execution_time": 1.024147248,
+          "automation_transactions_payload_generation_time": 0.002459396,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2254": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.016854811,
+          "block_execution_time": 1.044421696,
+          "automation_transactions_payload_generation_time": 0.004860849,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2255": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.099052149,
+          "block_execution_time": 1.122805341,
+          "automation_transactions_payload_generation_time": 0.002259883,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2256": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.036661889,
+          "block_execution_time": 1.057482,
+          "automation_transactions_payload_generation_time": 0.003770756,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2257": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.891237988,
+          "block_execution_time": 0.912807479,
+          "automation_transactions_payload_generation_time": 0.002398714,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2258": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.058538253,
+          "block_execution_time": 1.092147131,
+          "automation_transactions_payload_generation_time": 0.002153564,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2259": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.950834718,
+          "block_execution_time": 0.996845958,
+          "automation_transactions_payload_generation_time": 0.002076693,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2260": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.028265613,
+          "block_execution_time": 1.055865272,
+          "automation_transactions_payload_generation_time": 0.002002503,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2261": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.033187786,
+          "block_execution_time": 1.051163728,
+          "automation_transactions_payload_generation_time": 0.002295595,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2262": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.032461499,
+          "block_execution_time": 1.064590434,
+          "automation_transactions_payload_generation_time": 0.002256545,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2263": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.036311328,
+          "block_execution_time": 1.066194126,
+          "automation_transactions_payload_generation_time": 0.00203052,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2264": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.042979383,
+          "block_execution_time": 1.062065362,
+          "automation_transactions_payload_generation_time": 0.002382578,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2265": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.089817796,
+          "block_execution_time": 1.112910936,
+          "automation_transactions_payload_generation_time": 0.002377686,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2266": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.015885468,
+          "block_execution_time": 1.049385872,
+          "automation_transactions_payload_generation_time": 0.002132466,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2267": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.075213469,
+          "block_execution_time": 1.115331084,
+          "automation_transactions_payload_generation_time": 0.002078488,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2268": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038788783,
+          "block_execution_time": 1.061208549,
+          "automation_transactions_payload_generation_time": 0.002240576,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2269": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.0534991,
+          "block_execution_time": 1.076078207,
+          "automation_transactions_payload_generation_time": 0.003862813,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2270": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.006180646,
+          "block_execution_time": 1.032156713,
+          "automation_transactions_payload_generation_time": 0.002405956,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2271": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.001351394,
+          "block_execution_time": 1.03180175,
+          "automation_transactions_payload_generation_time": 0.002142859,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2272": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.022269971,
+          "block_execution_time": 1.054176972,
+          "automation_transactions_payload_generation_time": 0.002168037,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2273": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.926718773,
+          "block_execution_time": 0.975685231,
+          "automation_transactions_payload_generation_time": 0.00207457,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2274": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.046757364,
+          "block_execution_time": 1.080692186,
+          "automation_transactions_payload_generation_time": 0.004622118,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2275": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.983191566,
+          "block_execution_time": 1.018717769,
+          "automation_transactions_payload_generation_time": 0.00281821,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2276": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.022390341,
+          "block_execution_time": 1.044911901,
+          "automation_transactions_payload_generation_time": 0.002177876,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2277": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.057042897,
+          "block_execution_time": 1.076814118,
+          "automation_transactions_payload_generation_time": 0.002410975,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2278": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.029099743,
+          "block_execution_time": 1.052249187,
+          "automation_transactions_payload_generation_time": 0.003070076,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2279": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.028283113,
+          "block_execution_time": 1.05555205,
+          "automation_transactions_payload_generation_time": 0.003898459,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2280": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.032368214,
+          "block_execution_time": 1.0527862,
+          "automation_transactions_payload_generation_time": 0.002677082,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2281": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.067031644,
+          "block_execution_time": 1.092239959,
+          "automation_transactions_payload_generation_time": 0.003484218,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2282": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.009054179,
+          "block_execution_time": 1.042807885,
+          "automation_transactions_payload_generation_time": 0.002193972,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2283": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.042663887,
+          "block_execution_time": 1.06287089,
+          "automation_transactions_payload_generation_time": 0.004217459,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2284": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.951632701,
+          "block_execution_time": 0.993993999,
+          "automation_transactions_payload_generation_time": 0.002510533,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2285": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.903374934,
+          "block_execution_time": 0.941723885,
+          "automation_transactions_payload_generation_time": 0.002306619,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2286": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.041260969,
+          "block_execution_time": 1.058210252,
+          "automation_transactions_payload_generation_time": 0.002166252,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2287": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.939579211,
+          "block_execution_time": 0.961728125,
+          "automation_transactions_payload_generation_time": 0.002204046,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2288": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.035333927,
+          "block_execution_time": 1.051601536,
+          "automation_transactions_payload_generation_time": 0.002140387,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2289": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.05649236,
+          "block_execution_time": 1.082204868,
+          "automation_transactions_payload_generation_time": 0.002757092,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2290": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.914825671,
+          "block_execution_time": 0.93708059,
+          "automation_transactions_payload_generation_time": 0.002316926,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2291": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.028718198,
+          "block_execution_time": 1.065614464,
+          "automation_transactions_payload_generation_time": 0.002185576,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2292": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038087611,
+          "block_execution_time": 1.068493106,
+          "automation_transactions_payload_generation_time": 0.002253156,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2293": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038635587,
+          "block_execution_time": 1.061728024,
+          "automation_transactions_payload_generation_time": 0.002484401,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2294": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.004710103,
+          "block_execution_time": 1.026854353,
+          "automation_transactions_payload_generation_time": 0.002027917,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2295": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.011100928,
+          "block_execution_time": 1.050165769,
+          "automation_transactions_payload_generation_time": 0.002853391,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2296": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.937354825,
+          "block_execution_time": 0.960902431,
+          "automation_transactions_payload_generation_time": 0.00212594,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2297": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.961492325,
+          "block_execution_time": 0.99736111,
+          "automation_transactions_payload_generation_time": 0.003923476,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2298": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.071805598,
+          "block_execution_time": 1.088870112,
+          "automation_transactions_payload_generation_time": 0.002148082,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2299": {
+          "is_boundary_block": true,
+          "transactions_execution_time": 0.334857932,
+          "block_execution_time": 0.434591162,
+          "automation_transactions_payload_generation_time": 0.002128713,
+          "automation_task_load_time": 0.088771383,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 0
+        }
+      }
+    },
+    "epoch_index_4": {
+      "total_blocks": 66,
+      "boundary_block_execution_time": 1.056466763,
+      "automation_task_load_time": 0.110797269,
+      "transactions_execution_time_stats": {
+        "min": {
+          "data": 0.820452309,
+          "Block": 2313
+        },
+        "max": {
+          "data": 1.554434496,
+          "Block": 2353
+        },
+        "mean": 1.266333830530303,
+        "median": 1.3766593365
+      },
+      "block_execution_time_stats": {
+        "min": {
+          "data": 0.874659164,
+          "Block": 2313
+        },
+        "max": {
+          "data": 1.578140253,
+          "Block": 2353
+        },
+        "mean": 1.3016442915909088,
+        "median": 1.412270032
+      },
+      "automation_transactions_payload_generation_time_stats": {
+        "min": {
+          "data": 0.002070992,
+          "Block": 2317
+        },
+        "max": {
+          "data": 0.08317834,
+          "Block": 2335
+        },
+        "mean": 0.007575457484848484,
+        "median": 0.003878876
+      },
+      "total_user_transactions_stats": {
+        "min": {
+          "data": 1,
+          "Block": 2300
+        },
+        "max": {
+          "data": 1,
+          "Block": 2300
+        },
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "total_automation_transactions_stats": {
+        "min": {
+          "data": 500,
+          "Block": 2300
+        },
+        "max": {
+          "data": 500,
+          "Block": 2300
+        },
+        "mean": 500.0,
+        "median": 500.0
+      },
+      "total_gas_used_stats": {
+        "min": {
+          "data": 27000,
+          "Block": 2300
+        },
+        "max": {
+          "data": 27000,
+          "Block": 2300
+        },
+        "mean": 27000.0,
+        "median": 27000.0
+      },
+      "block_level_metrics": {
+        "block_2300": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.044319947,
+          "block_execution_time": 1.07383676,
+          "automation_transactions_payload_generation_time": 0.004068866,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2301": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.987489791,
+          "block_execution_time": 1.008744066,
+          "automation_transactions_payload_generation_time": 0.002195839,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2302": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.069494717,
+          "block_execution_time": 1.091371929,
+          "automation_transactions_payload_generation_time": 0.002163709,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2303": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.07180888,
+          "block_execution_time": 1.099174215,
+          "automation_transactions_payload_generation_time": 0.002210666,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2304": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.013136969,
+          "block_execution_time": 1.038704785,
+          "automation_transactions_payload_generation_time": 0.002613391,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2305": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.010743921,
+          "block_execution_time": 1.041672388,
+          "automation_transactions_payload_generation_time": 0.004081182,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2306": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.002447351,
+          "block_execution_time": 1.03220154,
+          "automation_transactions_payload_generation_time": 0.004837485,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2307": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.005047853,
+          "block_execution_time": 1.027348284,
+          "automation_transactions_payload_generation_time": 0.002122408,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2308": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.981406268,
+          "block_execution_time": 1.024776564,
+          "automation_transactions_payload_generation_time": 0.002128976,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2309": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038687548,
+          "block_execution_time": 1.060458722,
+          "automation_transactions_payload_generation_time": 0.00395802,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2310": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.983353762,
+          "block_execution_time": 1.013670253,
+          "automation_transactions_payload_generation_time": 0.002390915,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2311": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.033113054,
+          "block_execution_time": 1.059766066,
+          "automation_transactions_payload_generation_time": 0.002206854,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2312": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.008930613,
+          "block_execution_time": 1.032849346,
+          "automation_transactions_payload_generation_time": 0.002073276,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2313": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.820452309,
+          "block_execution_time": 0.874659164,
+          "automation_transactions_payload_generation_time": 0.002509289,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2314": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.05345801,
+          "block_execution_time": 1.077150505,
+          "automation_transactions_payload_generation_time": 0.002136398,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2315": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.022592907,
+          "block_execution_time": 1.046062875,
+          "automation_transactions_payload_generation_time": 0.004037489,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2316": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 0.995893717,
+          "block_execution_time": 1.0247892,
+          "automation_transactions_payload_generation_time": 0.002386216,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2317": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.00810791,
+          "block_execution_time": 1.031889509,
+          "automation_transactions_payload_generation_time": 0.002070992,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2318": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.038581222,
+          "block_execution_time": 1.0585931,
+          "automation_transactions_payload_generation_time": 0.002311547,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2319": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.058309384,
+          "block_execution_time": 1.074502508,
+          "automation_transactions_payload_generation_time": 0.002224982,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2320": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.013095271,
+          "block_execution_time": 1.034543554,
+          "automation_transactions_payload_generation_time": 0.002127411,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2321": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.014924319,
+          "block_execution_time": 1.04098057,
+          "automation_transactions_payload_generation_time": 0.004083281,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2322": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.037068194,
+          "block_execution_time": 1.057668112,
+          "automation_transactions_payload_generation_time": 0.004327315,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2323": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.062534144,
+          "block_execution_time": 1.083238173,
+          "automation_transactions_payload_generation_time": 0.002134755,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2324": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.095148399,
+          "block_execution_time": 1.11946238,
+          "automation_transactions_payload_generation_time": 0.004177293,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2325": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.057240475,
+          "block_execution_time": 1.083684216,
+          "automation_transactions_payload_generation_time": 0.002130381,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2326": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.368850084,
+          "block_execution_time": 1.39437051,
+          "automation_transactions_payload_generation_time": 0.006973117,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2327": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.433149939,
+          "block_execution_time": 1.472287335,
+          "automation_transactions_payload_generation_time": 0.003484948,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2328": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.291239068,
+          "block_execution_time": 1.337765773,
+          "automation_transactions_payload_generation_time": 0.002553711,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2329": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.401210118,
+          "block_execution_time": 1.425499884,
+          "automation_transactions_payload_generation_time": 0.006375491,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2330": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.474913438,
+          "block_execution_time": 1.507915529,
+          "automation_transactions_payload_generation_time": 0.005520657,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2331": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.389426821,
+          "block_execution_time": 1.434115513,
+          "automation_transactions_payload_generation_time": 0.00274529,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2332": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.466962928,
+          "block_execution_time": 1.511930396,
+          "automation_transactions_payload_generation_time": 0.015456576,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2333": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.492219479,
+          "block_execution_time": 1.548087751,
+          "automation_transactions_payload_generation_time": 0.004634936,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2334": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.432947063,
+          "block_execution_time": 1.457235347,
+          "automation_transactions_payload_generation_time": 0.004156856,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2335": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.392620734,
+          "block_execution_time": 1.490213023,
+          "automation_transactions_payload_generation_time": 0.08317834,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2336": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.387984889,
+          "block_execution_time": 1.41203444,
+          "automation_transactions_payload_generation_time": 0.002377945,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2337": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.449381689,
+          "block_execution_time": 1.489303496,
+          "automation_transactions_payload_generation_time": 0.004590644,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2338": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.433679595,
+          "block_execution_time": 1.469750049,
+          "automation_transactions_payload_generation_time": 0.01717326,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2339": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.433038547,
+          "block_execution_time": 1.560004755,
+          "automation_transactions_payload_generation_time": 0.06589877,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2340": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.384882161,
+          "block_execution_time": 1.44900234,
+          "automation_transactions_payload_generation_time": 0.004101897,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2341": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.368014666,
+          "block_execution_time": 1.461764909,
+          "automation_transactions_payload_generation_time": 0.015240399,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2342": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.412645496,
+          "block_execution_time": 1.447817167,
+          "automation_transactions_payload_generation_time": 0.016094936,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2343": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.372916501,
+          "block_execution_time": 1.407951201,
+          "automation_transactions_payload_generation_time": 0.011968655,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2344": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.405169503,
+          "block_execution_time": 1.446557172,
+          "automation_transactions_payload_generation_time": 0.020056502,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2345": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.418878326,
+          "block_execution_time": 1.476522386,
+          "automation_transactions_payload_generation_time": 0.003680964,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2346": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.312504323,
+          "block_execution_time": 1.355196154,
+          "automation_transactions_payload_generation_time": 0.002900199,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2347": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.483229832,
+          "block_execution_time": 1.507455691,
+          "automation_transactions_payload_generation_time": 0.00395061,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2348": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.332204282,
+          "block_execution_time": 1.370894378,
+          "automation_transactions_payload_generation_time": 0.00236491,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2349": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.449188449,
+          "block_execution_time": 1.490930433,
+          "automation_transactions_payload_generation_time": 0.012340535,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2350": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.500912447,
+          "block_execution_time": 1.528562275,
+          "automation_transactions_payload_generation_time": 0.003866977,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2351": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.444846549,
+          "block_execution_time": 1.475750289,
+          "automation_transactions_payload_generation_time": 0.003562274,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2352": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.359998865,
+          "block_execution_time": 1.385296716,
+          "automation_transactions_payload_generation_time": 0.004575741,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2353": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.554434496,
+          "block_execution_time": 1.578140253,
+          "automation_transactions_payload_generation_time": 0.00430407,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2354": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.451430085,
+          "block_execution_time": 1.485037064,
+          "automation_transactions_payload_generation_time": 0.003185819,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2355": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.469246602,
+          "block_execution_time": 1.492710939,
+          "automation_transactions_payload_generation_time": 0.003890775,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2356": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.474051998,
+          "block_execution_time": 1.505466942,
+          "automation_transactions_payload_generation_time": 0.0026367,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2357": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.380402172,
+          "block_execution_time": 1.415542888,
+          "automation_transactions_payload_generation_time": 0.004185159,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2358": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.5042094110000002,
+          "block_execution_time": 1.526550596,
+          "automation_transactions_payload_generation_time": 0.005127212,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2359": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.45517384,
+          "block_execution_time": 1.490148847,
+          "automation_transactions_payload_generation_time": 0.003508324,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2360": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.439110703,
+          "block_execution_time": 1.470512589,
+          "automation_transactions_payload_generation_time": 0.006491914,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2361": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.380828952,
+          "block_execution_time": 1.412505624,
+          "automation_transactions_payload_generation_time": 0.002543605,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2362": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.423272539,
+          "block_execution_time": 1.483515367,
+          "automation_transactions_payload_generation_time": 0.040018374,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2363": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.507463094,
+          "block_execution_time": 1.524487317,
+          "automation_transactions_payload_generation_time": 0.002241191,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2364": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.493328659,
+          "block_execution_time": 1.5400488,
+          "automation_transactions_payload_generation_time": 0.003030518,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2365": {
+          "is_boundary_block": false,
+          "transactions_execution_time": 1.424677537,
+          "block_execution_time": 1.457842323,
+          "automation_transactions_payload_generation_time": 0.015282457,
+          "automation_task_load_time": null,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 27000
+        },
+        "block_2366": {
+          "is_boundary_block": true,
+          "transactions_execution_time": 0.933452257,
+          "block_execution_time": 1.056466763,
+          "automation_transactions_payload_generation_time": 0.003785405,
+          "automation_task_load_time": 0.110797269,
+          "total_user_transactions": 1,
+          "total_automation_transactions": 500,
+          "total_gas_used": 0
+        }
+      }
+    }
+  }
+}

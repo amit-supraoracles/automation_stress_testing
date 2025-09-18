@@ -1,0 +1,15 @@
+{
+    "function_id": "0x1::supra_account::transfer",
+    "type_args": [],
+    "args": [
+        {
+            "type": "address",
+            "value": "0x1"
+        },
+        {
+            "type": "u64",
+            "value": "1"
+        }
+    ]
+}
+

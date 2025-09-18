@@ -1,0 +1,121 @@
+{
+  "benchmark_time": 21721,
+  "total_rounds": 1,
+  "total_tx": 1,
+  "tps": 0.5820721769499418,
+  "average_submission_time": 120,
+  "average_execution_time": 1598,
+  "average_e2e_time": 1718,
+  "min_submission_time": {
+    "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+    "time": 120
+  },
+  "min_execution_time": {
+    "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+    "time": 1598
+  },
+  "min_e2e_time": {
+    "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+    "time": 1718
+  },
+  "max_submission_time": {
+    "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+    "time": 120
+  },
+  "max_execution_time": {
+    "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+    "time": 1598
+  },
+  "max_e2e_time": {
+    "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+    "time": 1718
+  },
+  "rounds_level_metrics": {
+    "Round_0": {
+      "total_tx": 1,
+      "tps": 0.5820721769499418,
+      "average_submission_time": 120,
+      "average_execution_time": 1598,
+      "average_e2e_time": 1718,
+      "min_submission_time": {
+        "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+        "time": 120
+      },
+      "min_execution_time": {
+        "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+        "time": 1598
+      },
+      "min_e2e_time": {
+        "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+        "time": 1718
+      },
+      "max_submission_time": {
+        "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+        "time": 120
+      },
+      "max_execution_time": {
+        "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+        "time": 1598
+      },
+      "max_e2e_time": {
+        "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+        "time": 1718
+      },
+      "class_groups_metrics": [
+        {
+          "range_start": 1718,
+          "range_end": 1718,
+          "frequency": 1,
+          "tx_in_range": [
+            "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a"
+          ],
+          "percentage": 100.0
+        }
+      ]
+    }
+  },
+  "raw_metrics": [
+    {
+      "operation_time": 1718,
+      "tx_metrics": [
+        {
+          "tx_hash": "911ca433cc70b295697c1d18d667e9ab120420236b41d30d07fc20da054cf13a",
+          "submission_time": 120,
+          "execution_time": 1598,
+          "e2e_time": 1718
+        }
+      ]
+    }
+  ],
+  "cli_parameters": {
+    "total_rounds": 1,
+    "burst_size": 1,
+    "cool_down_duration": 20,
+    "should_automation_tx_type_payload": true,
+    "automation_tx_type_args": {
+      "automation_task_max_gas_amount": 2000,
+      "automation_task_gas_price_cap": 100,
+      "automation_fee_cap_for_epoch": 2500000,
+      "automation_expiration_duration_secs": 3600
+    },
+    "benchmark_common_args": {
+      "rpc_url": "https://move-stress-nw-1565.supra.com/",
+      "tx_sender_account_store_file": "/home/codezeros/Documents/RemoteStressTest/ssh/asdf/account_stores.json",
+      "tx_sender_start_index": 0,
+      "tx_sender_end_index": 1999,
+      "static_payload_file_path": "../data/automation_limit_task_payload.json",
+      "coin_receiver_account_store_file": null,
+      "coin_receiver_start_index": null,
+      "coin_receiver_end_index": null,
+      "max_polling_attempts": 5,
+      "polling_wait_time_in_ms": 200,
+      "tx_request_retry": 5,
+      "wait_before_request_retry_in_ms": 100,
+      "total_http_clients_instance": 1,
+      "pool_idle_timeout": 120,
+      "http_request_timeout": 60,
+      "generate_metrics_file_path": "../data/temp.json",
+      "total_class_groups": 10
+    }
+  }
+}
