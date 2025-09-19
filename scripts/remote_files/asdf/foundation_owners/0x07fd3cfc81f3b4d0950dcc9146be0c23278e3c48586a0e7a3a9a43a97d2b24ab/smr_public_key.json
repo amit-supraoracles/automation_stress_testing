@@ -1,0 +1,8 @@
+{
+  "ed25519_public_key": "856d6bd9917b7c32cbdab704688176aecbf8ea4d803e0fefda0e03e4d8f0aa88",
+  "account_address": "07fd3cfc81f3b4d0950dcc9146be0c23278e3c48586a0e7a3a9a43a97d2b24ab",
+  "chain_id": 216,
+  "network": "Custom",
+  "rpc_url": "http://localhost:5000/",
+  "faucet_url": "http://localhost:5000/"
+}

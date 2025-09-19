@@ -1,0 +1,21 @@
+[2025-09-19T13:38:31.930346Z+00:00]  INFO qa_cli::benchmark::models::burst_model: Performing benchmark using burst mechanism: BurstModelArgs { total_rounds: 1, burst_size: 10, cool_down_duration: 5, should_automation_tx_type_payload: true, automation_tx_type_args: AutomationTxTypeArgs { automation_task_max_gas_amount: 190, automation_task_gas_price_cap: 100, automation_fee_cap_for_epoch: 2500000, automation_expiration_duration_secs: 3600 }, benchmark_common_args: CommonBenchmarkArgs { rpc_url: "https://move-stress-nw-1565.supra.com/", tx_sender_account_store_file: "/home/codezeros/Documents/RemoteStressTest/0_STRESS_TEST/automation-network-benchmark-master/scripts/remote_files/asdf/account_stores.json", tx_sender_start_index: 0, tx_sender_end_index: Some(9), static_payload_file_path: Some("../data/automation_limit_order_task_payload_fail.json"), coin_receiver_account_store_file: None, coin_receiver_start_index: None, coin_receiver_end_index: None, max_polling_attempts: 5, polling_wait_time_in_ms: 200, tx_request_retry: 5, wait_before_request_retry_in_ms: 100, total_http_clients_instance: 1, pool_idle_timeout: 120, http_request_timeout: 60, generate_metrics_file_path: Some("../data/temp.json"), total_class_groups: 10 } }
+[2025-09-19T13:38:32.486652Z+00:00]  INFO qa_cli::benchmark::models: Using 10 number of accounts
+[2025-09-19T13:38:32.486701Z+00:00]  INFO qa_cli::benchmark::models: Using static entry function payload for transactions
+[2025-09-19T13:38:32.486983Z+00:00]  INFO qa_cli::benchmark::models: Using 1 number of http clients instance
+[2025-09-19T13:38:33.140678Z+00:00]  INFO qa_cli::benchmark::models: Fetching accounts sequence numbers
+[2025-09-19T13:38:33.785477Z+00:00] DEBUG qa_cli::benchmark::models::burst_model: Obtained Model common essentials
+[2025-09-19T13:38:33.785593Z+00:00]  INFO qa_cli::benchmark::models::burst_model: Benchmark Started
+[2025-09-19T13:38:33.785607Z+00:00]  INFO qa_cli::benchmark::models::burst_model: Round 0 started
+[2025-09-19T13:38:34.149752Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.149942Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.150028Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.200556Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.200916Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.200973Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.211421Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.211507Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.280507Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.380092Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 9
+[2025-09-19T13:38:34.729397Z+00:00] DEBUG qa_cli::benchmark::rpc_client: Retrying tx transmission, remaining retry: 8
+[2025-09-19T13:38:35.385412Z+00:00]  INFO qa_cli::benchmark::models::burst_model: Cool down period started
+[2025-09-19T13:38:40.387443Z+00:00]  INFO qa_cli::benchmark::models::burst_model: Benchmark Stopped
