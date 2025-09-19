@@ -1,239 +1,308 @@
 {
-  "benchmark_time": 6601,
+  "benchmark_time": 6697,
   "total_rounds": 1,
-  "total_tx": 10,
-  "tps": 6.261740763932373,
-  "average_submission_time": 90,
-  "average_execution_time": 1066,
-  "average_e2e_time": 1157,
+  "total_tx": 20,
+  "tps": 11.813349084465445,
+  "average_submission_time": 102,
+  "average_execution_time": 1426,
+  "average_e2e_time": 1528,
   "min_submission_time": {
-    "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-    "time": 74
+    "tx_hash": "4299fded49cc96459718e68ac4ef41b37c894202169e63ce1393cb15527c40f9",
+    "time": 92
   },
   "min_execution_time": {
-    "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-    "time": 934
+    "tx_hash": "38f18992a833316313be5b8f02459e5e8fe31c5e407da50c7a9bfd0701d122d4",
+    "time": 958
   },
   "min_e2e_time": {
-    "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-    "time": 1008
+    "tx_hash": "2d5fde9395685a7c8c0679caed463eac09c4d80ce70ffa405c0b9c5ff99edae1",
+    "time": 1100
   },
   "max_submission_time": {
-    "tx_hash": "d05a9901f3cd5305877ae5d0341c1a9cdead7951dd177eb76d3235bb0cf3ecf4",
-    "time": 177
+    "tx_hash": "38f18992a833316313be5b8f02459e5e8fe31c5e407da50c7a9bfd0701d122d4",
+    "time": 158
   },
   "max_execution_time": {
-    "tx_hash": "32e891cf5595bb3614785d809d5157294bfd277d2bba969c48562b9132b4d547",
-    "time": 1522
+    "tx_hash": "8f291fac15cef2a53558ec6f4113768d4e281a4d689315178b3bc2106dcc9cb5",
+    "time": 1600
   },
   "max_e2e_time": {
-    "tx_hash": "32e891cf5595bb3614785d809d5157294bfd277d2bba969c48562b9132b4d547",
-    "time": 1596
+    "tx_hash": "8f291fac15cef2a53558ec6f4113768d4e281a4d689315178b3bc2106dcc9cb5",
+    "time": 1692
   },
   "rounds_level_metrics": {
     "Round_0": {
-      "total_tx": 10,
-      "tps": 6.261740763932373,
-      "average_submission_time": 90,
-      "average_execution_time": 1066,
-      "average_e2e_time": 1157,
+      "total_tx": 20,
+      "tps": 11.813349084465445,
+      "average_submission_time": 102,
+      "average_execution_time": 1426,
+      "average_e2e_time": 1528,
       "min_submission_time": {
-        "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-        "time": 74
+        "tx_hash": "4299fded49cc96459718e68ac4ef41b37c894202169e63ce1393cb15527c40f9",
+        "time": 92
       },
       "min_execution_time": {
-        "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-        "time": 934
+        "tx_hash": "38f18992a833316313be5b8f02459e5e8fe31c5e407da50c7a9bfd0701d122d4",
+        "time": 958
       },
       "min_e2e_time": {
-        "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-        "time": 1008
+        "tx_hash": "2d5fde9395685a7c8c0679caed463eac09c4d80ce70ffa405c0b9c5ff99edae1",
+        "time": 1100
       },
       "max_submission_time": {
-        "tx_hash": "d05a9901f3cd5305877ae5d0341c1a9cdead7951dd177eb76d3235bb0cf3ecf4",
-        "time": 177
+        "tx_hash": "38f18992a833316313be5b8f02459e5e8fe31c5e407da50c7a9bfd0701d122d4",
+        "time": 158
       },
       "max_execution_time": {
-        "tx_hash": "32e891cf5595bb3614785d809d5157294bfd277d2bba969c48562b9132b4d547",
-        "time": 1522
+        "tx_hash": "8f291fac15cef2a53558ec6f4113768d4e281a4d689315178b3bc2106dcc9cb5",
+        "time": 1600
       },
       "max_e2e_time": {
-        "tx_hash": "32e891cf5595bb3614785d809d5157294bfd277d2bba969c48562b9132b4d547",
-        "time": 1596
+        "tx_hash": "8f291fac15cef2a53558ec6f4113768d4e281a4d689315178b3bc2106dcc9cb5",
+        "time": 1692
       },
       "class_groups_metrics": [
         {
-          "range_start": 1008,
-          "range_end": 1066,
+          "range_start": 1100,
+          "range_end": 1159,
           "frequency": 2,
           "tx_in_range": [
-            "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-            "2ae44f85ecb4d68858f5decca2718b2430afaa660d1620ecf431795072c18306"
-          ],
-          "percentage": 20.0
-        },
-        {
-          "range_start": 1066,
-          "range_end": 1124,
-          "frequency": 2,
-          "tx_in_range": [
-            "4961a2983eea5619d3d9e88b017ffba1d045f7c7b4f5ae181e387ec53f26bce2",
-            "07dd98ae8bff6cb9325123cc375fd482257d30572288a783b5f226fcaa5bdc01"
-          ],
-          "percentage": 20.0
-        },
-        {
-          "range_start": 1124,
-          "range_end": 1182,
-          "frequency": 4,
-          "tx_in_range": [
-            "f81d9b9d95ff43a87ecbf9b64c72c999f20feb294c34319f716f569764868118",
-            "d9b065cc8e632f1aa597b1d200ce0a4271ab9bd03023a36fa55d5a4d576a7380",
-            "2628c17fb58859cbe4532929f575daa0b31451a0838a6149bac631b6ec37faec",
-            "11923dd5a39a3848c45ab828b131e6d3a4ac64239dccc32f1cecd6539e2c7553"
-          ],
-          "percentage": 40.0
-        },
-        {
-          "range_start": 1182,
-          "range_end": 1240,
-          "frequency": 0,
-          "tx_in_range": [],
-          "percentage": 0.0
-        },
-        {
-          "range_start": 1240,
-          "range_end": 1298,
-          "frequency": 1,
-          "tx_in_range": [
-            "d05a9901f3cd5305877ae5d0341c1a9cdead7951dd177eb76d3235bb0cf3ecf4"
+            "2d5fde9395685a7c8c0679caed463eac09c4d80ce70ffa405c0b9c5ff99edae1",
+            "38f18992a833316313be5b8f02459e5e8fe31c5e407da50c7a9bfd0701d122d4"
           ],
           "percentage": 10.0
         },
         {
-          "range_start": 1298,
-          "range_end": 1356,
+          "range_start": 1159,
+          "range_end": 1218,
           "frequency": 0,
           "tx_in_range": [],
           "percentage": 0.0
         },
         {
-          "range_start": 1356,
-          "range_end": 1414,
+          "range_start": 1218,
+          "range_end": 1277,
           "frequency": 0,
           "tx_in_range": [],
           "percentage": 0.0
         },
         {
-          "range_start": 1414,
-          "range_end": 1472,
+          "range_start": 1277,
+          "range_end": 1336,
           "frequency": 0,
           "tx_in_range": [],
           "percentage": 0.0
         },
         {
-          "range_start": 1472,
-          "range_end": 1530,
+          "range_start": 1336,
+          "range_end": 1395,
           "frequency": 0,
           "tx_in_range": [],
           "percentage": 0.0
         },
         {
-          "range_start": 1530,
-          "range_end": 1596,
+          "range_start": 1395,
+          "range_end": 1454,
+          "frequency": 0,
+          "tx_in_range": [],
+          "percentage": 0.0
+        },
+        {
+          "range_start": 1454,
+          "range_end": 1513,
+          "frequency": 0,
+          "tx_in_range": [],
+          "percentage": 0.0
+        },
+        {
+          "range_start": 1513,
+          "range_end": 1572,
+          "frequency": 11,
+          "tx_in_range": [
+            "e7a288a7db70f843088468366932b3a9846d71e8603c1c73b5cd1307a28f9bcc",
+            "7c3a1f47aa24ce5d91409ec21b9447cbd591bc0fcfda24b917a880e7fd51d981",
+            "222ccce19efd9f6876d3e7b771f229fa26d8ca00433c667022adfd7a00882477",
+            "cf3c268706e7e9ad1426e28dd3758d8cacc7970ab6d3d1cede3a75a76e0297fb",
+            "35e689edbe8c1bc4b6cd1d646b0b608a35d037aaea683a4fdf039492e0d13ba0",
+            "75b9fd906510d94520b8f29c37b653a28b54f9fa2d26e8130719578a78d50757",
+            "4299fded49cc96459718e68ac4ef41b37c894202169e63ce1393cb15527c40f9",
+            "494957f71957228090e5edd0e3254cf5195e4eb4bbb1982e94703b3dabaca8f9",
+            "aafc35539ba4a3c43c405107b7acff34bec3af03cff39675f7f430d805d8bdf3",
+            "a6fbdc1f9c9f31840590a94a2e19677d2d557c704678bc41bff1953e8325fc45",
+            "1213fcdf21fdba50aac399da9df5a23f7b795ec5a28f1146bd59b3e5a3636831"
+          ],
+          "percentage": 55.0
+        },
+        {
+          "range_start": 1572,
+          "range_end": 1631,
+          "frequency": 6,
+          "tx_in_range": [
+            "9693c878e835256bb088317e1b3a17682930c930c2fe457c0b7f7dfadd2b56de",
+            "62d93eb09495ab1388b16d11c68d475fb84c91f79c3903a47dc571ee23a45c45",
+            "5f9143f650bb3d40239e5b2ab67fca2dfb39dba57445b528e6246dc259ec3ddf",
+            "760e0103ff15255cd12c14d10adb26be32a7ca44217d962d93f06bd2a9b4dfff",
+            "51135243c6c95ecc41a989e8f78b9caeed1055c93faac187e4e8a77a972fbe59",
+            "d8200a2e7e78d5ad04b6cc0d8abe217d82577bde7d6407f16a0ab26ca9c81f87"
+          ],
+          "percentage": 30.0
+        },
+        {
+          "range_start": 1631,
+          "range_end": 1692,
           "frequency": 1,
           "tx_in_range": [
-            "32e891cf5595bb3614785d809d5157294bfd277d2bba969c48562b9132b4d547"
+            "8f291fac15cef2a53558ec6f4113768d4e281a4d689315178b3bc2106dcc9cb5"
           ],
-          "percentage": 10.0
+          "percentage": 5.0
         }
       ]
     }
   },
   "raw_metrics": [
     {
-      "operation_time": 1597,
+      "operation_time": 1693,
       "tx_metrics": [
         {
-          "tx_hash": "21aab3e4dd08862f2b21d6ca563221267dc48de6aae854fbf40b793291bf362e",
-          "submission_time": 74,
-          "execution_time": 934,
-          "e2e_time": 1008
+          "tx_hash": "e7a288a7db70f843088468366932b3a9846d71e8603c1c73b5cd1307a28f9bcc",
+          "submission_time": 93,
+          "execution_time": 1451,
+          "e2e_time": 1544
         },
         {
-          "tx_hash": "f81d9b9d95ff43a87ecbf9b64c72c999f20feb294c34319f716f569764868118",
-          "submission_time": 79,
-          "execution_time": 1058,
-          "e2e_time": 1137
+          "tx_hash": "7c3a1f47aa24ce5d91409ec21b9447cbd591bc0fcfda24b917a880e7fd51d981",
+          "submission_time": 93,
+          "execution_time": 1451,
+          "e2e_time": 1544
         },
         {
-          "tx_hash": "d9b065cc8e632f1aa597b1d200ce0a4271ab9bd03023a36fa55d5a4d576a7380",
-          "submission_time": 74,
-          "execution_time": 1063,
-          "e2e_time": 1137
+          "tx_hash": "222ccce19efd9f6876d3e7b771f229fa26d8ca00433c667022adfd7a00882477",
+          "submission_time": 98,
+          "execution_time": 1451,
+          "e2e_time": 1549
         },
         {
-          "tx_hash": "2ae44f85ecb4d68858f5decca2718b2430afaa660d1620ecf431795072c18306",
-          "submission_time": 74,
-          "execution_time": 935,
-          "e2e_time": 1009
+          "tx_hash": "9693c878e835256bb088317e1b3a17682930c930c2fe457c0b7f7dfadd2b56de",
+          "submission_time": 93,
+          "execution_time": 1495,
+          "e2e_time": 1588
         },
         {
-          "tx_hash": "4961a2983eea5619d3d9e88b017ffba1d045f7c7b4f5ae181e387ec53f26bce2",
-          "submission_time": 79,
-          "execution_time": 998,
-          "e2e_time": 1077
+          "tx_hash": "cf3c268706e7e9ad1426e28dd3758d8cacc7970ab6d3d1cede3a75a76e0297fb",
+          "submission_time": 98,
+          "execution_time": 1452,
+          "e2e_time": 1550
         },
         {
-          "tx_hash": "2628c17fb58859cbe4532929f575daa0b31451a0838a6149bac631b6ec37faec",
-          "submission_time": 79,
-          "execution_time": 1063,
-          "e2e_time": 1142
+          "tx_hash": "35e689edbe8c1bc4b6cd1d646b0b608a35d037aaea683a4fdf039492e0d13ba0",
+          "submission_time": 98,
+          "execution_time": 1446,
+          "e2e_time": 1544
         },
         {
-          "tx_hash": "32e891cf5595bb3614785d809d5157294bfd277d2bba969c48562b9132b4d547",
-          "submission_time": 74,
-          "execution_time": 1522,
-          "e2e_time": 1596
+          "tx_hash": "62d93eb09495ab1388b16d11c68d475fb84c91f79c3903a47dc571ee23a45c45",
+          "submission_time": 129,
+          "execution_time": 1494,
+          "e2e_time": 1623
         },
         {
-          "tx_hash": "11923dd5a39a3848c45ab828b131e6d3a4ac64239dccc32f1cecd6539e2c7553",
-          "submission_time": 79,
-          "execution_time": 1062,
-          "e2e_time": 1141
+          "tx_hash": "75b9fd906510d94520b8f29c37b653a28b54f9fa2d26e8130719578a78d50757",
+          "submission_time": 98,
+          "execution_time": 1450,
+          "e2e_time": 1548
         },
         {
-          "tx_hash": "d05a9901f3cd5305877ae5d0341c1a9cdead7951dd177eb76d3235bb0cf3ecf4",
-          "submission_time": 177,
-          "execution_time": 1075,
-          "e2e_time": 1252
+          "tx_hash": "4299fded49cc96459718e68ac4ef41b37c894202169e63ce1393cb15527c40f9",
+          "submission_time": 92,
+          "execution_time": 1457,
+          "e2e_time": 1549
         },
         {
-          "tx_hash": "07dd98ae8bff6cb9325123cc375fd482257d30572288a783b5f226fcaa5bdc01",
-          "submission_time": 116,
-          "execution_time": 955,
-          "e2e_time": 1071
+          "tx_hash": "5f9143f650bb3d40239e5b2ab67fca2dfb39dba57445b528e6246dc259ec3ddf",
+          "submission_time": 92,
+          "execution_time": 1495,
+          "e2e_time": 1587
+        },
+        {
+          "tx_hash": "760e0103ff15255cd12c14d10adb26be32a7ca44217d962d93f06bd2a9b4dfff",
+          "submission_time": 98,
+          "execution_time": 1520,
+          "e2e_time": 1618
+        },
+        {
+          "tx_hash": "494957f71957228090e5edd0e3254cf5195e4eb4bbb1982e94703b3dabaca8f9",
+          "submission_time": 98,
+          "execution_time": 1452,
+          "e2e_time": 1550
+        },
+        {
+          "tx_hash": "51135243c6c95ecc41a989e8f78b9caeed1055c93faac187e4e8a77a972fbe59",
+          "submission_time": 98,
+          "execution_time": 1489,
+          "e2e_time": 1587
+        },
+        {
+          "tx_hash": "aafc35539ba4a3c43c405107b7acff34bec3af03cff39675f7f430d805d8bdf3",
+          "submission_time": 97,
+          "execution_time": 1452,
+          "e2e_time": 1549
+        },
+        {
+          "tx_hash": "8f291fac15cef2a53558ec6f4113768d4e281a4d689315178b3bc2106dcc9cb5",
+          "submission_time": 92,
+          "execution_time": 1600,
+          "e2e_time": 1692
+        },
+        {
+          "tx_hash": "a6fbdc1f9c9f31840590a94a2e19677d2d557c704678bc41bff1953e8325fc45",
+          "submission_time": 97,
+          "execution_time": 1463,
+          "e2e_time": 1560
+        },
+        {
+          "tx_hash": "d8200a2e7e78d5ad04b6cc0d8abe217d82577bde7d6407f16a0ab26ca9c81f87",
+          "submission_time": 98,
+          "execution_time": 1524,
+          "e2e_time": 1622
+        },
+        {
+          "tx_hash": "1213fcdf21fdba50aac399da9df5a23f7b795ec5a28f1146bd59b3e5a3636831",
+          "submission_time": 92,
+          "execution_time": 1451,
+          "e2e_time": 1543
+        },
+        {
+          "tx_hash": "2d5fde9395685a7c8c0679caed463eac09c4d80ce70ffa405c0b9c5ff99edae1",
+          "submission_time": 130,
+          "execution_time": 970,
+          "e2e_time": 1100
+        },
+        {
+          "tx_hash": "38f18992a833316313be5b8f02459e5e8fe31c5e407da50c7a9bfd0701d122d4",
+          "submission_time": 158,
+          "execution_time": 958,
+          "e2e_time": 1116
         }
       ]
     }
   ],
   "cli_parameters": {
     "total_rounds": 1,
-    "burst_size": 10,
+    "burst_size": 20,
     "cool_down_duration": 5,
-    "should_automation_tx_type_payload": true,
+    "should_automation_tx_type_payload": false,
     "automation_tx_type_args": {
-      "automation_task_max_gas_amount": 190,
+      "automation_task_max_gas_amount": 500000,
       "automation_task_gas_price_cap": 100,
-      "automation_fee_cap_for_epoch": 2500000,
-      "automation_expiration_duration_secs": 3600
+      "automation_fee_cap_for_epoch": 1000000,
+      "automation_expiration_duration_secs": 600
     },
     "benchmark_common_args": {
       "rpc_url": "https://move-stress-nw-1565.supra.com/",
       "tx_sender_account_store_file": "/home/codezeros/Documents/RemoteStressTest/0_STRESS_TEST/automation-network-benchmark-master/scripts/remote_files/asdf/account_stores.json",
       "tx_sender_start_index": 0,
-      "tx_sender_end_index": 9,
-      "static_payload_file_path": "../data/automation_limit_order_task_payload_fail.json",
+      "tx_sender_end_index": 19,
+      "static_payload_file_path": "../data/automation_create_storage.json",
       "coin_receiver_account_store_file": null,
       "coin_receiver_start_index": null,
       "coin_receiver_end_index": null,
